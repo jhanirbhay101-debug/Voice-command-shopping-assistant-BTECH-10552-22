@@ -1,0 +1,175 @@
+﻿export const catKeys = {
+  dairy: ["milk", "cheese", "yogurt", "butter", "cream"],
+  produce: ["apple", "banana", "orange", "tomato", "potato", "onion", "spinach", "mango"],
+  bakery: ["bread", "bun", "cake", "croissant"],
+  grains: ["rice", "pasta", "oats", "flour", "quinoa"],
+  protein: ["egg", "chicken", "fish", "beans", "lentils", "tofu"],
+  beverages: ["juice", "water", "tea", "coffee", "soda"],
+  personal_care: ["toothpaste", "soap", "shampoo", "conditioner"],
+  snacks: ["chips", "cookies", "chocolate", "nuts", "cracker"]
+};
+
+export const catalog = [
+  {
+    sku: "APL-ORG-1KG",
+    name: "organic apples",
+    brand: "FreshFarm",
+    size: "1kg",
+    price: 4.5,
+    salePrice: 3.9,
+    onSale: true,
+    category: "produce",
+    inStock: true,
+    seasonMonths: [9, 10, 11],
+    substitutes: ["regular apples", "green apples"]
+  },
+  {
+    sku: "APL-REG-1KG",
+    name: "regular apples",
+    brand: "DailyMart",
+    size: "1kg",
+    price: 2.9,
+    onSale: false,
+    category: "produce",
+    inStock: true,
+    seasonMonths: [8, 9, 10],
+    substitutes: ["organic apples"]
+  },
+  {
+    sku: "MLK-WHL-1L",
+    name: "whole milk",
+    brand: "DairyPure",
+    size: "1L",
+    price: 3.2,
+    onSale: false,
+    category: "dairy",
+    inStock: false,
+    seasonMonths: [],
+    substitutes: ["almond milk", "oat milk"]
+  },
+  {
+    sku: "MLK-ALM-1L",
+    name: "almond milk",
+    brand: "NutriLife",
+    size: "1L",
+    price: 3.8,
+    salePrice: 3.4,
+    onSale: true,
+    category: "dairy",
+    inStock: true,
+    seasonMonths: [],
+    substitutes: ["oat milk"]
+  },
+  {
+    sku: "MLK-OAT-1L",
+    name: "oat milk",
+    brand: "GreenSip",
+    size: "1L",
+    price: 3.6,
+    onSale: false,
+    category: "dairy",
+    inStock: true,
+    seasonMonths: [],
+    substitutes: ["almond milk"]
+  },
+  {
+    sku: "TPC-CLG-150G",
+    name: "toothpaste",
+    brand: "Colgate",
+    size: "150g",
+    price: 4.2,
+    salePrice: 3.7,
+    onSale: true,
+    category: "personal_care",
+    inStock: true,
+    seasonMonths: [],
+    substitutes: ["herbal toothpaste"]
+  },
+  {
+    sku: "TPC-HRB-150G",
+    name: "herbal toothpaste",
+    brand: "NatureFresh",
+    size: "150g",
+    price: 5.0,
+    onSale: false,
+    category: "personal_care",
+    inStock: true,
+    seasonMonths: [],
+    substitutes: ["toothpaste"]
+  },
+  {
+    sku: "BRD-WHT-400G",
+    name: "bread",
+    brand: "BakeHouse",
+    size: "400g",
+    price: 2.5,
+    onSale: false,
+    category: "bakery",
+    inStock: true,
+    seasonMonths: [10, 11, 12, 1],
+    substitutes: ["multigrain bread"]
+  },
+  {
+    sku: "BRD-MGR-400G",
+    name: "multigrain bread",
+    brand: "FitBake",
+    size: "400g",
+    price: 3.0,
+    salePrice: 2.6,
+    onSale: true,
+    category: "bakery",
+    inStock: true,
+    seasonMonths: [1, 2, 3],
+    substitutes: ["bread"]
+  },
+  {
+    sku: "ORG-REG-1KG",
+    name: "oranges",
+    brand: "SunCitrus",
+    size: "1kg",
+    price: 3.3,
+    onSale: false,
+    category: "produce",
+    inStock: true,
+    seasonMonths: [12, 1, 2],
+    substitutes: ["mandarins"]
+  },
+  {
+    sku: "RCE-BSM-5KG",
+    name: "rice",
+    brand: "GoldenGrain",
+    size: "5kg",
+    price: 12.0,
+    salePrice: 10.5,
+    onSale: true,
+    category: "grains",
+    inStock: true,
+    seasonMonths: [],
+    substitutes: ["brown rice"]
+  },
+  {
+    sku: "CHC-KTK-4P",
+    name: "kitkat chocolate",
+    brand: "Nestle",
+    size: "4-finger",
+    price: 1.5,
+    onSale: false,
+    category: "snacks",
+    inStock: true,
+    seasonMonths: [],
+    substitutes: ["dairy milk chocolate"]
+  },
+  {
+    sku: "CHC-PRK-4P",
+    name: "perk chocolate",
+    brand: "Cadbury",
+    size: "4-finger",
+    price: 1.2,
+    onSale: false,
+    category: "snacks",
+    inStock: true,
+    seasonMonths: [],
+    substitutes: ["kitkat chocolate", "dairy milk chocolate"]
+  }
+];
+

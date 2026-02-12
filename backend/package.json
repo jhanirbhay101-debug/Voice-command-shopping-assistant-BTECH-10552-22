@@ -1,0 +1,29 @@
+{
+  "name": "voice-shopping-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Voice Command Shopping Assistant",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "catalog:generate": "node scripts/generateLargeCatalog.js",
+    "catalog:import": "node scripts/importCatalogToMongo.js",
+    "catalog:import:large": "node scripts/importCatalogToMongo.js src/data/catalog.large.json",
+    "test": "node --test tests/*.test.js",
+    "test:smoke": "node --test tests/api.smoke.test.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongodb": "^7.1.0",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
