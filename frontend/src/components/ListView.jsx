@@ -119,7 +119,7 @@ export function ListView({ list, onDelete, loading }) {
               ))}
             </select>
           </label>
-          <span>
+          <span className="list-summary">
             {isFiltered ? `${visibleList.length} of ${list.length} items` : `${list.length} items`}
             {hasEstimatedPrices ? ` | Est. Total: ${formatCurrency(estimatedTotal)}` : ""}
           </span>

@@ -23,7 +23,7 @@ export function SuggestionsPanel({
   onApply
 }) {
   return (
-    <section className="card">
+    <section className="card suggestions-card">
       <div className="section-header">
         <h2>Smart Suggestions</h2>
       </div>

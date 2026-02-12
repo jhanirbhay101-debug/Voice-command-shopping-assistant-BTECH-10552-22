@@ -52,7 +52,7 @@ export function SearchPanel({
   };
 
   return (
-    <section className="card">
+    <section className="card search-card">
       <div className="section-header">
         <h2>Voice-Activated Search</h2>
       </div>
