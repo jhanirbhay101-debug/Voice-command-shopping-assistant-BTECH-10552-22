@@ -20,7 +20,7 @@ This project is a full-stack, voice-enabled shopping assistant designed to under
 - I have implemented voice command recognition directly in the browser.
 - NLP-style parsing that understands flexible phrases for add, remove, update, and search actions
 - Structured extraction from natural speech, including item name, brand, quantity, unit, price filters, and size
-- Multilingual command support (`en-US`, `es-ES`, `hi-IN`)
+- Multilingual command support
 
 ---
 
@@ -35,7 +35,7 @@ This project is a full-stack, voice-enabled shopping assistant designed to under
 ### 3. Shopping List Management
 
 - Add, remove, and modify items using voice commands
-- Extracting Quantity from sentance phrases (for example: `I need 5 kg apples`)
+- Extracting Quantity from sentance phrases (for eg: `I need 5 kg apples`)
 - Tabular list rendering in the format `Item | Brand | Quantity`, including category and status information
 
 ---
