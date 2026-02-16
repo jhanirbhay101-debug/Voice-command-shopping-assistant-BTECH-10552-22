@@ -111,8 +111,8 @@ Current URLs:
 
 ### Production Environment Checklist
 
-- Set backend `CLIENT_URL` to your frontend production domain.
-- Set frontend `VITE_API_BASE_URL` to your backend production domain.
+- Set backend `CLIENT_URL` to your frontend domain.
+- Set frontend `VITE_API_BASE_URL` to your backend domain.
 - Add `GEMINI_API_KEY` and `MONGODB_URI` on the backend hosting platform.
 
 ---
